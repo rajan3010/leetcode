@@ -2,7 +2,7 @@ from collections import defaultdict
 def gridIllumination(N, lamps, queries):
 
     on=set()    #Store the lights which are on
-    rows_lit=defaultdict(int)   # each for row col and diagnols lit
+    rows_lit=defaultdict(int)   # each for row col and diagnols lit testing
     cols_lit=defaultdict(int)
     diag_left_lit=defaultdict(int)
     diag_right_lit=defaultdict(int)
