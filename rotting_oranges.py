@@ -1,3 +1,4 @@
+#O(n^4) time complexity solution, O(1) space complexity solution
 def run_bfs(timestamp, grid):
     rows=len(grid)
     cols=len(grid[0])
