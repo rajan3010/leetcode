@@ -1,0 +1,1 @@
+print('\u20ac35.'.decode('utf-8'))
